@@ -55,14 +55,15 @@ Pull requests:
 
 ## Demo Tutorial (Coming soon)
 
-To demonstrate how checkpointctl can be used as a forensic analysis tool for container checkpoints, I have created a tutorial article [here](https://hashnode.com/draft/64daaff9e92b23000fd53132) that demonstrates the features implemented during this GSoC.
+To demonstrate how checkpointctl can be used as a forensic analysis tool for container checkpoints, I have created a tutorial article [here](https://behouba.hashnode.dev/memory-forensics-analysis-of-container-checkpoints-with-checkpointctl) that demonstrates the features implemented during this GSoC.
 
 ## Experience through this project
 
 Before the GSoC coding period began, I dedicated time to learning about Linux processes and memory management. I read various materials on this topic, including articles, book chapters, and forums. During the GSoC coding period, the most challenging part for me was when I needed to delve into the CRIU source code to understand how some image files are generated. While I can't claim to have grasped everything, I learned a lot from the feedback and discussions with my mentors, along with inspecting the CRIU source code. Another challenge was designing meaningful command-line sub-commands and flags for `checkpointctl`. Thankfully, my mentors were always available to provide insights, and suggest  improvements to my initial ideas. This project has been a priceless opportunity for me to expand my knowledge, particularly about Linux processes and memory management.
 
 ## Next steps
-There are a few tasks that I plan to continue working on:
+
+For the future, I intend to keep contributing to CRIU. In relation to this GSoC project, there are a few tasks that I plan to continue working on:
 - Extend `memparse` sub-command with search functionality to allow user to search for a specific pattern in process memory pages (Suggested by: [Radostin Stoyanov](https://github.com/rst0git)).
 - Extend `memparse` sub-command with memory pages editing features (Suggested by: [Radostin Stoyanov](https://github.com/rst0git)).
 - Add a new feature to `checkpointctl` that allow user to view bash process history. This feature will look like of the `history` command.
